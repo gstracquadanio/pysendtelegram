@@ -28,7 +28,7 @@ optional arguments:
 
 ## Examples
 
-Sending a textfile as a telegram message:
+Sending a text file as a telegram message:
 ```
 cat README.md | sendtelegram
 ```
