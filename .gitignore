@@ -3,6 +3,8 @@
 *
 
 # accepted files
+!.github-actions
+!.github-actions/**
 !docs
 !docs/*
 !tests
@@ -18,6 +20,7 @@
 !.gitignore
 !environment.yml
 !requirements.txt
+!tox.ini
 !LICENSE
 !MANIFEST.in
 !README.md
