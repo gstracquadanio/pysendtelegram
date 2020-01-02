@@ -11,7 +11,7 @@ setup(
     # package information
     name="sendtelegram",
     packages=find_packages(),
-    version="0.0.1-dev",
+    version="0.0.1",
     description="A telegram replacement for sendmail.",
     long_description=readme,
     long_description_content_type="text/markdown",

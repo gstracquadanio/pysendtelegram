@@ -1,6 +1,6 @@
 # sendtelegram
 
-Current version: 0.0.1-dev
+Current version: 0.0.1
 
 A Telegram replacement for sendmail.
 
