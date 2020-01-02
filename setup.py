@@ -23,7 +23,7 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
     ],
-    url="git@github.com:gstracquadanio/sendtelegram.git",
+    url="https://github.com/gstracquadanio/sendtelegram",
     keywords="",
     #  author information
     author="Giovanni Stracquadanio",
