@@ -2,12 +2,14 @@ import sys
 
 import argh
 
-from .commands import echo
+from .commands import send_message
+
 
 def main():
     parser = argh.ArghParser()
-    parser.add_commands([echo])
+    parser.set_default_command(send_message)
     parser.dispatch()
+
 
 if __name__ == "__main__":
     sys.exit(main())
