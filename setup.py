@@ -14,7 +14,15 @@ setup(
     version="0.0.1-dev",
     description="A telegram replacement for sendmail.",
     long_description=readme,
+    long_description_content_type="text/markdown",
     license="MIT",
+    classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+    ],
     url="git@github.com:gstracquadanio/sendtelegram.git",
     keywords="",
     #  author information
