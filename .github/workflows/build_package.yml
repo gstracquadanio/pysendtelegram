@@ -30,4 +30,4 @@ jobs:
         with:
           python-version: 3.8
       - name: Build packages
-        run: python setup.py sdist bdist_wheel
+        run: py setup.py sdist bdist_wheel
