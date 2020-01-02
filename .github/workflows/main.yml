@@ -32,12 +32,8 @@ jobs:
         with:
           python-version: 3.8
       - name: Install wheel
-        run: pip install wheel
+        run: pip install wheel twine
       - name: Build packages
         run: python setup.py sdist bdist_wheel
       - name: Publish package
-        uses: pypa/gh-action-pypi-publish@master
-        with:
-            user: __token__
-            password: ${{ secrets.PYPI_TOKEN }}
-            # repository_url: https://test.pypi.org/legacy/
+        run: twine upload -u __token__ -p ${{ secrets.PYPI_TOKEN }} dist/*
