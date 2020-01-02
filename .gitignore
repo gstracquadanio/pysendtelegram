@@ -3,8 +3,8 @@
 *
 
 # accepted files
-!.github-actions
-!.github-actions/**
+!.github
+!.github/**
 !docs
 !docs/*
 !tests
